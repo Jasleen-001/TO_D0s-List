@@ -1,0 +1,74 @@
+*{ 
+    margin:0;
+}
+
+.heading{
+    font-size: 25px;
+    background-color: black;
+    color:white;
+    height:25vh;
+    text-align: center;
+    height:10%;
+    width:100%;
+}
+h3{
+   padding:25px ;
+
+}
+
+.take_input{
+    width:50%;
+    margin-left:50vh;
+    height:12vh;
+    text-align: center;
+}
+.items{
+    margin-left:28%;
+    margin-top: 2%;
+    width:42%;
+    height:100vh;
+}
+.add{
+    width:7vw;
+    height:10vh;
+}
+.done{
+    width:7vw;
+    height:10vh;
+    visibility: collapse;
+}
+ol{
+    padding-top:25px;
+    margin-left:20%;
+    color: rgb(34, 88, 135);
+    background-color: rgb(215, 197, 197);
+
+    width:60%;
+}
+.text{
+    background-color: rgb(133, 212, 186);
+    width:25vw;
+    padding:20px;
+
+}
+li{
+    display:flex;
+    padding-bottom: 25px; 
+    align-items: center;
+}
+.actions{
+    /* display: inline-flex; */
+    padding-left:25px;
+  
+    
+}
+
+
+.edit{
+   color: rgb(4, 29, 29); 
+   margin-right:25px;
+}
+
+.del{
+    color:rgb(9, 18, 18) ;
+}
